@@ -23,3 +23,10 @@ Haz fork de [este](https://codepen.io/ianaya89/pen/LYYJzor) **CodePen** para obt
   - Definir un método *toggleModal* que permita cambiar el valor de la propiedad *showModal* a su valor contrario (este metodo debe usarse con el boton “Show Modal”).
   - Escuchar el evento *close* del *modal* y ejecutar el metodo *toggleModal* cuando este se emite.
   - Establecer el contenido de *title* del modal usando una propiedad y el contenido del *body* usando slots.
+
+### See it in action:
+
+
+
+https://user-images.githubusercontent.com/14260953/161662533-cd8bb82d-5cfa-4e75-a111-7345b1e6fd1b.mov
+
