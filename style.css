@@ -1,6 +1,12 @@
 #app {
-  padding: 20px;
   text-align: center;
+  font-family: sans-serif;
+  flex-direction: column;
+  padding: 20px;
+  margin : 0;
+  width: 600px;
+  margin: 0 auto;
+  background-color: #03091eb3;
 }
 
 .modal-mask {
@@ -29,8 +35,81 @@
   border-radius: 2px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
   transition: all .3s ease;
+  display: grid;
+  justify-content: center;
+  border-radius: 5px;
 }
 
 footer {
   text-align: right;
+}
+
+.white {
+  color: #fff;
+}
+
+.green-circle {
+  background-color: #4CAF50;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+
+section .fa-5::before {
+  font-size: 50px;
+  line-height: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+section {
+  align-items: center;
+  justify-content: center;
+  color: #131d30;
+  font-size: 14px;
+  padding: 1.5rem 1rem 1.75rem;
+  text-align: center;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+section strong{
+  font-weight: bolder;
+}
+
+/* blue button with blue border and text and rounded borders */
+.btn-blue {
+  background-color: #fff;
+  border: 1px solid #0791e6;
+  color: #0791e6;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn100 {
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+}
+
+.btn-border {
+  border: 1px solid;
+}
+
+.ligth-blue {
+  color: #33b1ff;
+}
+
+.ligth-blue:hover {
+  color: #74caff;
+}
+
+.background-darkblue {
+  background-color: #40587c;
 }

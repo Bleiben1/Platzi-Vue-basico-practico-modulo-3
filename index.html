@@ -10,9 +10,17 @@
 </head>
 <body>
   <div id="app">
-    <button>Show Modal</button>
+    <button v-on:click="toggleModal" class="btn btn100 btn-border ligth-blue background-darkblue">
+      <p class="bold uppercase m0">Show Modal</p>
+    </button>
     
-    <modal></modal>
+    <modal
+      title="Curso completado!"
+      v-if="showModal"
+      v-on:close="toggleModal"
+    >
+      {{ randomCourse }}
+    </modal>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
